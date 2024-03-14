@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+	--bg: #fffcdf;
+	--pri: #800000;
+	--sec: #b77979;
+	--black: #000000;
+}
+::selection {
+	background: var(--sec);
+	/* WebKit/Blink Browsers */
+}
+::-moz-selection {
+	background: var(--sec);
+	/* Gecko Browsers */
+}
+
+@font-face {
+	font-family: 'AldoTheApache';
+	src: url('AldotheApache.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+body {
+	font-family: 'AldoTheApache';
+	background-color: var(--bg);
+
+}
